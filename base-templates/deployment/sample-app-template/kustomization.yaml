@@ -3,7 +3,7 @@ kind: Kustomization
 resources:
   - namespace.yaml
   - deployment.yaml
-  - hpa.yaml
+  # - hpa.yaml
   # - imagePullSecret.yaml
   - secrets.yaml
   - configmap.yaml
